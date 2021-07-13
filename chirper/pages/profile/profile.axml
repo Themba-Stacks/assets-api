@@ -1,0 +1,4 @@
+<view>
+  This is the profile
+  <cheep-nav title="{{title}}"></cheep-nav>
+</view>

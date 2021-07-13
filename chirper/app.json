@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "defaultTitle": "Chirper",
+    "titleBarColor": "#FF476F"
+  }
+}

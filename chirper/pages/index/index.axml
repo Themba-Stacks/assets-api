@@ -1,0 +1,16 @@
+<view class="index-page">
+  <view>
+    <image class="heading-image" mode="aspectFit" src="/assets/images/chirper_header_logo.svg"/>
+  </view>
+  <view class="body">
+    <cheep cheep="{{cheeps[0]}}"></cheep>
+    <cheep cheep="{{cheeps[1]}}"></cheep>
+    <cheep cheep="{{cheeps[2]}}"></cheep>
+
+    <cheep cheep="{{cheeps[4]}}"></cheep>
+    <cheep cheep="{{cheeps[5]}}"></cheep>
+    <cheep cheep="{{cheeps[6]}}"></cheep>
+  </view>
+  <cheep-modal a:if="{{true}}"></cheep-modal>
+  <cheep-nav title="{{title}}"></cheep-nav>
+</view>

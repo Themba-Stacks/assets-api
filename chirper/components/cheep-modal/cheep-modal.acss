@@ -1,0 +1,31 @@
+.cheep-modal-container{
+  position: absolute;
+  top: 0rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--backdrop);
+}
+
+.cheep-modal-outer{
+  width:657rpx;
+  /* height: 600rpx; */
+  background-color: var(--background);
+  border-radius: 77rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 77rpx 0rpx 37rpx 0rpx;
+}
+
+.cheep-modal-textarea{
+  width: 439rpx;
+  /* min-height: 483rpx; */
+  margin: 0rpx 42rpx;
+  border-radius: 77rpx;
+  padding: 64rpx 54rpx;
+}

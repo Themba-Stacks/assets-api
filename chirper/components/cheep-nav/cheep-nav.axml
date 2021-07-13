@@ -1,0 +1,8 @@
+<view class="cheep-nav-container">
+  <view onTap="openIndex">
+    <image class="image-icon" mode="scaleToFill" src="/assets/images/home_icon_{{title==='index'}}.svg"/>
+  </view>
+  <view onTap="openProfile">
+    <image class="image-icon" mode="scaleToFill" src="/assets/images/user_icon_{{title==='profile'}}.svg"/>
+  </view>
+</view>

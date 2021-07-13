@@ -1,0 +1,8 @@
+<view class="cheep-body">
+  <view>
+    <image class="cheep-profile-image" mode="scaleToFill" src="{{cheep.image}}"/>
+  </view>
+  <view class="cheep-text-area">
+    <text>{{cheep.text}}</text>
+  <view>
+</view>

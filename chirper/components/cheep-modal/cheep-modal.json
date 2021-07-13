@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cheep-button" : "../cheep-button/cheep-button"
+  }
+}

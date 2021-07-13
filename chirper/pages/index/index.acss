@@ -1,0 +1,16 @@
+.index-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-image{
+  margin-top: 17rpx;
+  width: 389rpx;
+  height: 100rpx
+}
+
+.body{
+  overflow: scroll;
+  height: calc(100vh - 220rpx);
+}

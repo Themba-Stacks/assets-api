@@ -1,0 +1,14 @@
+<view class="cheep-modal-container">
+  <view class="cheep-modal-outer">
+    <textarea
+    class="cheep-modal-textarea"  
+    placeholder="What would you like to say..."
+    show-count="{{false}}"
+    auto-height="{{true}}"
+    maxlength="270"></textarea>
+    <cheep-button onClick="buttonClick">
+      <text>Cheep</text>
+    </cheep-button>
+  </view>
+  
+</view>

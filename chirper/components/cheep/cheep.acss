@@ -1,0 +1,28 @@
+.cheep-body{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--secondary);
+  padding: 33rpx 48rpx 73rpx 32rpx;
+  margin: 22rpx 0;
+  border-radius: 51rpx;
+}
+
+.cheep-profile-image{
+  height: 72rpx;
+  width: 72rpx;
+  margin-right: 25rpx;
+}
+
+.cheep-text-area{
+  width: 475rpx;
+  height: auto;
+}
+
+.cheep-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36rpx;
+  line-height: 42rpx;
+  display: flex;
+  align-items: center;
+}

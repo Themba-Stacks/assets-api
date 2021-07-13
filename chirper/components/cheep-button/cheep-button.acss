@@ -1,0 +1,12 @@
+.cheep-button{
+  width:228rpx;
+  height: 75rpx;
+  border-radius: 25rpx;
+  border: 5rpx solid var(--primary-pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35rpx;
+  background-color: var(--background);
+  color: var(--primary-pink);
+}
