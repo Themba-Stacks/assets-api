@@ -1,3 +1,4 @@
-<button class="cheep-button" onTap="clicked">
+<button class="cheep-button" form-type="{{form_type}}">
   <slot></slot>
 </button>
+

@@ -2,16 +2,12 @@ Component({
   mixins: [],
   data: {},
   props: {
-    onClick(){
-      // this logs on modal
-    }
+    form_type: ""
   },
   didMount() {},
   didUpdate() {},
   didUnmount() {},
   methods: {
-    clicked(){
-      this.props.onClick();
-    }
+    
   },
 });

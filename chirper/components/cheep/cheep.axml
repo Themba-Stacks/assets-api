@@ -5,4 +5,9 @@
   <view class="cheep-text-area">
     <text>{{cheep.text}}</text>
   <view>
+
+   <view class="cheep-text-area">
+    <text>{{cheep.handle}}</text>
+  <view>
+  
 </view>

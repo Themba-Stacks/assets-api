@@ -1,4 +1,13 @@
 <view>
-  This is the profile
+
+  <view class = "profile-page">
+  <cheep-profile profileDetails = "{{profiles}}" />
+  
+  <view class = "body">
+  <text class = "cheep-title">Your cheeps</text>
+  <view a:for="{{userFilteredCheeps}}" a:for-item="userCheeps" a:for-index="i">
+    <cheep cheep="{{userCheeps}}"></cheep>
+  </view>
+</view>
   <cheep-nav title="{{title}}"></cheep-nav>
 </view>

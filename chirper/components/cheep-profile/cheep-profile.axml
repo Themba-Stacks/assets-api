@@ -1,0 +1,22 @@
+<view>
+  <view class = "user-details">
+    <view class = "user-details-header">
+    <image mode="scaleToFill" class = "profile-image" src="{{profileDetails.profile_image}}"/>
+     <view class = "username-text-container">
+        <text class = "user-name">{{profileDetails.userName}}</text>
+       <text class = "user-handle">{{profileDetails.uniqueHandle}}</text>
+     </view>
+    </view>
+     <view class = "user-details-body">
+      <text>{{profileDetails.description}}</text>
+     </view>
+
+      <view class = "user-details-footer">
+      <text>Following: {{profileDetails.following}}</text>
+      <text>Followers: {{profileDetails.followers}}</text>
+     </view>
+
+    
+  
+  </view>
+</view>

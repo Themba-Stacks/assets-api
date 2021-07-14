@@ -1,11 +1,17 @@
 Component({
   mixins: [],
   data: {
-    cheep: ''
+    
   },
-  props: {},
+  props: {
+    cheep: {
+      image: "",
+      text: "",
+      handle:""
+    }
+  },
   didMount() {
-    this.setData({cheep: this.props.cheep})
+    
   },
   
   methods: {},

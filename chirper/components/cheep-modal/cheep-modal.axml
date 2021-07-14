@@ -1,14 +1,29 @@
 <view class="cheep-modal-container">
+
+<form onSubmit="onSubmit" onReset="">
   <view class="cheep-modal-outer">
     <textarea
     class="cheep-modal-textarea"  
     placeholder="What would you like to say..."
     show-count="{{false}}"
     auto-height="{{true}}"
+    name="cheepText"
     maxlength="270"></textarea>
-    <cheep-button onClick="buttonClick">
+
+    
+    <cheep-button form_type = "submit">
       <text>Cheep</text>
     </cheep-button>
+
+    <cheep-button form_type = "reset">
+      <text>Clear</text>
+    </cheep-button>
+
+
+
+   
   </view>
+
+</form>
   
 </view>

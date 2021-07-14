@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+    "cheep-profile": "/components/cheep-profile/cheep-profile",
     "cheep": "/components/cheep/cheep",
     "cheep-nav" : "/components/cheep-nav/cheep-nav"
   }
